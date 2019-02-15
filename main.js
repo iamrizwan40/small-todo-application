@@ -10,7 +10,7 @@ function addTask(e){
 	let li = document.createElement('li');
 	let textNode =  document.createTextNode(input.value);
 	if(input.value === ''){
-		alert('Please the task');
+		alert('Please enter the task');
 	}else{
 		delBtn = document.createElement('button');
 		let btnValue = document.createTextNode('Delete Task');
